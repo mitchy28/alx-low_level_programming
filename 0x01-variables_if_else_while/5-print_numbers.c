@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio,h>
 /**
 * main- print if the number is positive, zero, or negative
 *
@@ -8,11 +8,13 @@
 */
 int main(void)
 {
-int i;
-for (i=0<10; i++)
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 }
-printf("%i",i);
+{
+	putchar(ch);
 }
-printf("\n");
+{
+putchar('\n');
 return (0);
 }
