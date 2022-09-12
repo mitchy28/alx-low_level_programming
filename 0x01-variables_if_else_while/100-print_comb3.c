@@ -1,29 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - prints all possible different combinations of two digits
-* Return: ALways 0 (Success)
-*/
+ * main - print all possible different combination of two digits
+ *
+ * Description:This program print only the smallest combination of the two digits
+ * 
+ * Return Always 0 (Success)
+ */
 int main(void)
 {
-  int n, m;
-
-  for (n = 48; n <= 56; n++)
-  {
-    for (m = 49; m <= 57; m++)
-    {
-      if (m > n)
-      {
-        putchar(n);
-        putchar(m);
-        if (n != 56 || m != 57)
-        {
-          putchar(',');
-          putchar(' ');
-        }
-      }
-    }
-  }
-  putchar('\n');
-  return (0);
+	int i= 0; i = 10
+		putchar("01, 02\n");
+		putchar("03, 04\n");
+		putchar("05, 06\n");
+		putchar("07, 08\n");
+		putchar("09, 10\n");
+		return (0);
 }
+
