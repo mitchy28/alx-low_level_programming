@@ -1,23 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
- * create_array - main entry
- * @size: size input
- * @c: char
+ * main - prints its name + \n
+ * @argc: number of arguments typed
+ * @argv: array pointing to arguements
  * Return: 0
  */
-char *create_array(unsigned int size, char c)
+int main(int argc, char *argv[])
 {
-	char *array;
-	unsigned int i;
+	argc = 0;
 
-	array = malloc(sizeof(char) * size);
-
-	if (size == 0 || array == NULL)
-		return (NULL);
-
-	for (i = 0; i < size; i++)
-		array[i] = c;
-	return (array);
+	printf("%s\n", argv[argc]);
+	return (0);
 }
