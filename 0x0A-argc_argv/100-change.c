@@ -63,3 +63,4 @@ int change(int cents)
 		}
 	}
 	return (coins);
+}
