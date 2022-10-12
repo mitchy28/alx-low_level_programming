@@ -1,9 +1,9 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
+
 /**
- * main - Entry Point
- * Return: 0
+ * main - prints the name of the file
+ *
+ * Return: always 0
  */
 int main(void)
 {
